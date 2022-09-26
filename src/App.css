@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(41, 40, 46);
+  background-color: #ebf3ff;
+  color: #002b5b;
+  font-family: 'Roboto';
+  padding-top: 1.5em;
+  font-weight: 500;
+}
+
+/* .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 1em; */
+}
+
+.mainBg {
+  background-color: #bbd1ef;
+  /* color: #f9f5eb; */
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.icons span:hover {
+  color: #405278;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 30px;
+  color: #002b5b;
+}
+.icons-item {
+  padding: 0 5px;
+  font-size: 18px;
+  /* color: #f9f5eb; */
+}
+
+#icon-add :hover {
+  color: #405278;
+  cursor: pointer;
+}
+#comp {
+  background-color: #d6def9;
+}
